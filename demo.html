@@ -1,0 +1,35 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="selectDeselect.js"></script>
+<script>
+$(function(){
+	$('div').selectDeselect({headerclasses:'agree,disagree'});
+});
+</script>
+</head>
+<body>
+<table style="border: 1px solid black;">
+	<tr>
+		<td><input class="agree" type="checkbox"><span>Column-1</span></td>
+		<td><input class="disagree" type="checkbox"><span>Column-2</span></td>
+	</tr>
+	<tr>
+		<td><hr></td>	
+		<td><hr></td>			
+	</tr>
+	<tr>
+		<td> <input class="agree entry" type="checkbox"></td>
+		<td> <input class="disagree entry" type="checkbox"></td>
+	</tr>
+	<tr>
+		<td> <input class="agree entry" type="checkbox"></td>
+		<td> <input class="disagree entry" type="checkbox"></td>
+	</tr>
+	<tr>
+		<td> <input class="agree entry" type="checkbox"></td>
+		<td> <input class="disagree entry" type="checkbox"></td>
+	</tr>
+</table>
+</body>
+</html>
